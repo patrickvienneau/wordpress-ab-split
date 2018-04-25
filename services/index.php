@@ -1,0 +1,10 @@
+<?php
+  require_once('get_posts_by_keyword.php');
+  require_once('get_test_by_post_id.php');
+  require_once('get_tests.php');
+  require_once('get_post_by_id.php');
+  require_once('get_test_by_id.php');
+  require_once('save_test.php');
+  require_once('delete_test_by_id.php');
+  require_once('toggle_test_by_id.php');
+  require_once('get_active_test_by_post_id.php');

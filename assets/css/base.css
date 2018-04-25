@@ -1,0 +1,20 @@
+body.veem-ab-split .block {
+  display: block;
+}
+
+body.veem-ab-split .notice.notice-error {
+  border-left-color: #dc3232 !important;
+}
+
+body.veem-ab-split h1 {
+  display: inline-block;
+}
+
+body.veem-ab-split h1 + .page-title-action {
+  margin-left: 5px;
+}
+
+body.veem-ab-split .wp-list-table th ul,
+body.veem-ab-split .wp-list-table td ul {
+  margin: 0;
+}

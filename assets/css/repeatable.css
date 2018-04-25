@@ -1,0 +1,53 @@
+body.veem-ab-split .repeatable-container {
+
+}
+
+body.veem-ab-split .repeatable-container .repeatable {
+  position: relative;
+  padding: 15px 10px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  border: 1px solid #f3f3f3;
+  border-left: 2px solid #dcdcdc;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.24);
+
+  transition: box-shadow 200ms ease-in-out;
+}
+
+body.veem-ab-split .repeatable-container .repeatable .repeatable-button-remove {
+  padding: 10px;
+  border: 0;
+  background-color: transparent;
+  color: #ccc;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  opacity: 0;
+  box-sizing: content-box;
+  outline: none;
+
+  transition: opacity 200ms ease-in-out;
+}
+
+body.veem-ab-split .repeatable-container .repeatable:hover {
+  box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+body.veem-ab-split .repeatable-container .repeatable:hover .repeatable-button-remove {
+  opacity: 1;
+}
+
+body.veem-ab-split .repeatable-container .repeatable-controls {
+  margin-top: 15px;
+}
+
+body.veem-ab-split .repeatable-container .repeatable-controls .validation {
+  margin-left: 10px;
+}
+
+body.veem-ab-split .repeatable-container h4 {
+  margin-top: 0;
+}

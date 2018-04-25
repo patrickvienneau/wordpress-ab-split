@@ -1,0 +1,82 @@
+body.veem-ab-split .dropdown-container {
+  position: relative;
+}
+
+body.veem-ab-split .dropdown-container .dropdown {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: inherit;
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 5px 0;
+  z-index: 100;
+
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+body.veem-ab-split .dropdown-container .dropdown-item {
+  margin: 0;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+
+body.veem-ab-split .dropdown-container .dropdown-item:not(.no-hover):hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+body.veem-ab-split .dropdown-container .dropdown-item a {
+  display: block;
+  cursor: pointer;
+  color: #5a5a5a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body.veem-ab-split .dropdown-container .autocomplete-input-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(221, 221, 221);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  padding: 0px 10px;
+  position: relative;
+}
+
+body.veem-ab-split .dropdown-container .autocomplete-input-container .tag {
+  display: block;
+  border-radius: 3px;
+  margin: 0 7px 0 0;
+  background-color: #0085ba;
+  border: 1px solid #006799;
+  padding: 3px 5px;
+  color: #fff;
+  font-size: 11px;
+  white-space: nowrap;
+  max-width: 100px;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+body.veem-ab-split .dropdown-container .autocomplete-input-container .tag:hover {
+  background-color: #008ec2;
+}
+
+body.veem-ab-split .dropdown-container .autocomplete-input-container .autocomplete-input {
+  flex-grow: 1;
+  flex-basis: 0;
+  border: 0;
+  box-sizing: border-box;
+  width:100%;
+  padding: 0;
+}

@@ -1,0 +1,12 @@
+<?php
+  global $TEST_TYPES;
+  global $TEST_TYPE_INTERNAL;
+  global $TEST_TYPE_EXTERNAL;
+
+  $TEST_TYPE_INTERNAL = 'TEST_TYPE_INTERNAL';
+  $TEST_TYPE_EXTERNAL = 'TEST_TYPE_EXTERNAL';
+
+  $TEST_TYPES = array(
+    $TEST_TYPE_INTERNAL => 'Internal',
+    $TEST_TYPE_EXTERNAL => 'External',
+  );

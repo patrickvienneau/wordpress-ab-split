@@ -1,0 +1,12 @@
+body.veem-ab-split [validation-required="true"] th::after {
+  display: inline-block;
+  content: '*';
+  color: red;
+  font-size: 0.9em;
+  vertical-align: super;
+}
+
+body.veem-ab-split .validation-error {
+  color: red;
+  font-size: 0.85em;
+}

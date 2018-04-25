@@ -1,0 +1,40 @@
+body.veem-ab-split form {
+  max-width: 750px;
+  width: 100%;
+}
+
+body.veem-ab-split form .form-table th {
+  width: 150px;
+}
+
+body.veem-ab-split form .repeatable {
+  padding-right: 50px;
+}
+
+body.veem-ab-split form input {
+  height: 35px;
+  width: 100%;
+  line-height: 35px;
+  padding: 0 7px;
+  outline: none !important;
+}
+
+body.veem-ab-split form input[type="checkbox"],
+body.veem-ab-split form input[type="radio"] {
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  padding: 0;
+}
+
+body.veem-ab-split form input[type="button"],
+body.veem-ab-split form input[type="submit"],
+body.veem-ab-split form input[type="reset"] {
+  width: auto;
+}
+
+body.veem-ab-split form .radio-group > label,
+body.veem-ab-split form .checkbox-group > label {
+  display: block;
+  margin: 7px 0;
+}
